@@ -19,7 +19,7 @@ jobs:
       - uses: moonrepo/setup-rust@v1
         with:
           cache: false
-          targets: wasm32-wasi
+          targets: wasm32-wasip1
 
       - id: build
         uses: moonrepo/build-wasm-plugin@v0
